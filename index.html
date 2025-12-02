@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">   
+    </head>
+    <body>
+        <h2>Colour Scheme Generator</h2>
+            <main>
+               <div id="main-elements">
+                
+                    <div id="color-picker">
+                        <div>
+                            <input type="color" id="color-picker-input" name="color"  />
+                            <label for="color-picker"></label>
+                        </div>   
+                    </div>
+                    
+                    <div id="color-options">
+                        <label for="color"></label>
+                            <select name="color" id="color-scheme-options">
+                                <option value="monochrome">monochrome</option>
+                                <option value="monochrome-dark">monochrome-dark</option>
+                                <option value="monochrome-light">monochrome-light</option>
+                                <option value="analogic">analogic</option>
+                                <option value="complement">complement</option>
+                                <option value="analogic-complement">analogic-complement</option>
+                                <option value="triad">triad</option>
+                            </select>
+                    </div>
+                    
+                    <div id="color-scheme-div">
+                        <button id="color-scheme-btn">Get colour scheme</button>
+                    </div>  
+               </div>  
+            </main>
+            
+            <div id="api-color-palette">   
+            </div>
+            
+            <footer id="api-colors-text"></footer>
+            
+        
+        
+        <script src="index.js"></script>
+    </body>
+</html> 

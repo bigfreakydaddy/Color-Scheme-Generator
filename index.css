@@ -1,0 +1,109 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+h2{
+    text-align: center;
+}
+
+body{
+    margin: 0 auto;
+    max-width: 550px;
+    height: 550px;
+    top: 80px;
+    left: 72px;
+    opacity: 1;
+
+}
+
+#main-elements{
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    width: 550px;
+    height: 90px;
+    border-width: 1px;
+    
+    opacity: 1;
+}
+
+#color-picker{
+    /* position: absolute; */
+    position: absolute;
+    top: 23px;
+    left: 14px;
+    opacity: 1;
+}
+
+#color-options{
+    position: absolute;
+    top: 23px;
+    left: 87px;
+    border-width: 1px;
+    opacity: 1;
+    border-radius: 6px;
+
+}
+
+#color-scheme-div{
+    position: absolute;
+    top: 23px;
+    left: 412px;
+    border-width: 1px;
+    opacity: 1;
+    border-radius: 4px;
+
+}
+
+button{
+    width: 123px;
+    height: 42px;
+    color: #374151;
+    background-color: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px 0px #0000000D;
+    font-size: 12px;
+
+}
+
+select{
+        width: 312px;
+        height: 42px;
+}
+
+input{
+    width: 61px;
+    height: 42px;
+    }
+    
+#api-color-palette{
+    display: flex; 
+     
+}
+
+.box{
+    width: 110px;
+    height: 550px;
+    opacity: 1;
+
+}
+
+#api-colors-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+}
+
+.footer-box{
+    width: 110px;
+    height: 46px;
+    text-align: center;
+    color: #2B283A;
+}
+
